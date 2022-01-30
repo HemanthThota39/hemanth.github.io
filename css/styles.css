@@ -1,0 +1,232 @@
+#title{
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2{
+  font-weight: bold;
+
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.nav-item
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  padding:0 18px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.iphone-img{
+  width: 60%;
+  transform: rotate(25deg);
+  transition: 0.6s ease all;
+}
+
+.iphone-img:hover{
+  transform: rotate(0deg);
+}
+
+.iphone{
+  text-align: right;
+}
+.download{
+  margin: 5% 3% 5% 0;
+}
+
+/* Feautures section */
+#features{
+  padding:7% 15%;
+  background-color: #ECECEC;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box{
+  text-align: center;
+  padding:3%;
+}
+
+h3{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+  transition: 0.6s ease all;
+}
+
+.icon:hover{
+  transform: scale(1.2);
+}
+
+.fa-paw:hover{
+  color:#876445;
+}
+
+.fa-check-circle:hover
+{
+  color: green;
+}
+
+.fa-heart:hover{
+  color:red;
+}
+
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+
+  background-color: #ef8172;
+}
+
+
+
+.testimonial-image{
+  transform:
+    perspective(800px)
+    rotateY(25deg) scale(0.9)
+    rotateX(10deg);
+  transition: 0.6s ease all;
+  border-radius: 100%;
+  width: 20%;
+  margin:10px;
+}
+.testimonial-image:hover {
+    transform:
+      perspective(800px)
+      /* rotateY(-25deg) */
+      rotateX(-10deg)
+      scale(1);
+  }
+
+
+#press{
+  padding:7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+
+}
+
+.company-logo{
+  width:20%;
+  margin:10px;
+}
+
+.testimonial-name{
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.carousel-tem{
+  padding:7% 15% 2% 15%;
+}
+
+
+.btn-block{
+  width: 100%;
+}
+
+#pricing{
+  text-align: center;
+  padding: 7% 12%;
+  background-color: #ECECEC;
+}
+
+.pricing-col{
+  padding:2% 1%;
+  transition: 0.6s ease all;
+}
+
+.pricing-col:hover{
+  transform: scale(1.09);
+
+}
+
+.card-header{
+  background-color: #ff4c68;
+}
+
+h4{
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+h5{
+  font-weight: bold;
+}
+
+@media (max-width:993px)
+{
+  .iphone-img{
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+  .iphone{
+    text-align: center;
+  }
+}
+
+
+#cta{
+  text-align: center;
+
+  background-color: #ff4c68;
+  padding:3% 15%;
+
+}
+
+.cta-text{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+#footer{
+  background-color: #ECECEC;
+  text-align: center;
+  padding:3% 15%;
+}
+
+.social{
+  padding:1%;
+}
+
+.fa-facebook-square{
+color: #4267B2;
+}
